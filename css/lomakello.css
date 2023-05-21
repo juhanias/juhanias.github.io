@@ -1,0 +1,28 @@
+main {
+    padding-bottom: 100px;
+}
+
+html, body {
+    width: 100vw;
+    height: 100vh;
+    background: radial-gradient(
+            farthest-side at bottom left,
+            rgba(203, 255, 148, 0.5),
+            transparent
+    ),
+    radial-gradient(
+            farthest-corner at bottom right,
+            rgba(181, 255, 168, 0.5),
+            transparent
+    ),
+    radial-gradient(
+            farthest-side at top left,
+            rgba(245, 255, 109, 0.5),
+            transparent
+    ),
+    radial-gradient(
+            farthest-corner at top right,
+            rgba(109, 192, 107, 0.5),
+            transparent
+    );
+}

@@ -1,0 +1,36 @@
+html, body {
+    width: 100vw;
+    height: 100vh;
+    background: radial-gradient(
+            farthest-side at bottom left,
+            rgba(128, 255, 200, 0.5),
+            transparent
+    ),
+    radial-gradient(
+            farthest-corner at bottom right,
+            rgba(166, 255, 223, 0.5),
+            transparent
+    ),
+    radial-gradient(
+            farthest-side at top left,
+            rgba(75, 159, 255, 0.5),
+            transparent
+    ),
+    radial-gradient(
+            farthest-corner at top right,
+            rgba(50, 67, 255, 0.5),
+            transparent
+    );
+}
+
+a {
+    color: whitesmoke;
+    font-size: xxx-large;
+}
+
+@media (max-width: 700px) {
+    a {
+        color: whitesmoke;
+        font-size: x-large;
+    }
+}

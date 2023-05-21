@@ -1,0 +1,28 @@
+html, body {
+    width: 100vw;
+    height: 100vh;
+    background: radial-gradient(
+            farthest-side at bottom left,
+            rgba(116, 180, 255, 0.5),
+            transparent
+    ),
+    radial-gradient(
+            farthest-corner at bottom right,
+            rgba(115, 103, 255, 0.5),
+            transparent
+    ),
+    radial-gradient(
+            farthest-side at top left,
+            rgba(193, 182, 255, 0.5),
+            transparent
+    ),
+    radial-gradient(
+            farthest-corner at top right,
+            rgba(214, 161, 255, 0.5),
+            transparent
+    );
+}
+
+#carousel {
+    height: 100%;
+}
